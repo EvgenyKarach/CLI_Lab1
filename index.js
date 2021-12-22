@@ -3,6 +3,7 @@ const util = require('util');
 const stream = require('stream');
 const program = require('commander');
 const TransformStream = require("../CLI_Lab1/module/transformStream.js");
+const Validator = require("../CLI_Lab1/module/validator.js")
 const pipeline = util.promisify(stream.pipline);
 
 const actions = async () => {
